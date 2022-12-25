@@ -1,0 +1,231 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f4f4fd;
+}
+/*styles for index.html*/
+
+body {
+  background-color: var(--primary-background-color);
+
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.header {
+  background-color: var(--primary-white-color);
+}
+
+/* logo */
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-logo {
+  color: var(--title-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:active {
+  color: var(--accent-color);
+}
+
+/* contacts */
+.mail-tel,
+.mail,
+.tel {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.mail-tel:hover,
+.mail:hover,
+.tel:hover,
+.mail-tel:focus,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--title-text-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+button:focus {
+  background-color: var(--accent-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 4px;
+}
+
+.button:active {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* foundation */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.foundation-list .title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* team */
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+.name-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.name-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer-logo {
+  color: var(--secondary-background-color);
+}
+.footer-text {
+  color: #e7e9fc;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*styles for portfolio.html*/
+
+.button-portfolio {
+  color: var(--accent-color);
+  background: var(--secondary-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px solid var(--accent-color);
+}
+
+.cards-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.cards-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
